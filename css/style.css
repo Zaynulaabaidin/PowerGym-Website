@@ -1,0 +1,437 @@
+#header img{
+	width: 80px;
+}
+#header .navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+#header .navbar-logo{
+	margin-left:65px;
+}
+#header .navbar-default .navbar-nav>li>a {
+    color: #404040;
+}
+#header .navbar-nav>li>a:hover {
+	color: #000
+}
+#header .dropdown-menu>li>a {
+    display: inherit;
+    padding: 6px 20px;
+    clear: right;
+    font-weight: bold;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: inherit;
+}
+#header .dropdown-menu>li>a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #404040;
+}
+#header .navbar-nav>li>a {
+    padding-top: 46px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#banner{
+	background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#banner .banner-writing {
+    margin: 253px 106px;
+    color: white;
+}
+#banner h1 {
+    font-size: 76px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+	padding-bottom: 19px;
+}
+#banner p {
+    margin: 0 0 10px;
+    font-size: large;
+    font-weight: bold;
+}
+#banner a {
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 13px 23px;
+    border-radius: 60px;
+    transition: all .4s ease-in-out;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#banner a:hover {
+	background-color: #222;
+    color: #fff !important;
+}
+#courses{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#courses h1 {
+    font-size: 60px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+#positive {
+    color: #777777;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.929;
+    font-size: 17px;
+    margin-bottom: 16px;
+    letter-spacing: 3px;
+}
+#courses .workout {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: monospace;
+    text-align: justify;
+    margin-bottom: 45px;
+}
+#courses h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+#courses a {
+    color: #000000;
+    text-decoration: none;
+    border: 3px solid #000;
+    padding: 13px 23px;
+    border-radius: 7px;
+    transition: all .4s ease-in-out;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#courses a:hover {
+	background-color: #222;
+    color: #fff !important;
+}
+#courses img {
+    vertical-align: middle;
+    width: 300px;
+    height: 165px;
+}
+#schedule h1 {
+    font-size: 60px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    padding-bottom: 6px;
+}
+#schedule p {
+	color: #777777;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.929;
+    font-size: 14px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+
+}
+#schedule img {
+    vertical-align: middle;
+    width: 437px;
+    height: 526px;
+    margin-top: 40px;
+}
+#schedule .col-md-8 {
+    margin:41px 0px 0px 132px;
+    width: 0px;
+}
+#schedule .table>tbody>tr>td {
+    vertical-align: middle;
+}
+#schedule th {
+    padding: 17px 33px;
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    height: 75px;
+}
+#member {
+	background-image: url(../img/become_member.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    padding:125px 0px;
+}
+#member h1 {
+    font-size: 50px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    padding-bottom: 19px;
+    color: #fff;
+}
+#member p {
+    font-size: 16px;
+    margin: 13px 0 43px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.929;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+#member a {
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #fff;
+    padding: 13px 23px;
+    border-radius: 100px;
+    transition: all .4s ease-in-out;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#member a:hover {
+	background-color: #222;
+    color: #fff !important;
+ }
+ #footer {
+    background-color: #333;
+    width: 100%;
+}
+ #footer p{
+ 	font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    font-family: monospace;
+    text-align: justify;
+    margin-bottom: 45px;
+ }
+#footer h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    font-family: monospace;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+#footer .social_icon {
+    text-align: right;
+}
+#footer .fa-2x {
+    font-size: 2em;
+    color: #FFF;
+    padding: 0px 5px;
+}
+#footer .fa-2x:hover{
+    color: aqua;
+}
+
+/*<-----------------------Mobile Setting------------------------------>*/
+@media(max-width: 768px){
+#header .navbar-toggle {
+ 
+    margin-top: 52px;
+
+}
+#courses .col-md-4{
+    padding-top: 33px;
+}
+#schedule .col-md-8 {
+    margin: 0px;
+    width: 0px;
+}
+
+
+
+
+}
+/*<-----------------------About Us Start------------------------------>*/
+#ob {
+    background-image: url(../img/ob.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#ob h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding: 117px 0px;
+}
+#upper-strip h3 {
+    font-size: 24px;
+    text-align: center;
+    background-color:#ea1e1e;
+    margin: 0px 0px;
+    font-weight: bold;
+    font-family: monospace;
+    width: 100%;
+    color: #fff;
+    padding: 14px 0px;
+}
+#upper-strip h2 {
+    font-size: 35px;
+    text-align: center;
+    background-color: #00999d;
+    margin: 0px 0px;
+    font-weight: bold;
+    font-family: monospace;
+    width: 100%;
+    color: #fff;
+    padding: 20px 0px;
+    letter-spacing: 1px;
+}
+#about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#about h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    margin: 56px 49px;
+}
+#about p {
+    margin: 0 0 10px;
+    color: #777777;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.929;
+    font-size: 14px;
+    padding: 0px 55px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+#benefits img, #lower-benefits img {
+    vertical-align: middle;
+    width: 350px;
+    padding: 23px 0px;
+}
+#benefits h1 {
+    font-family: URWDINCond-Black,Helvetica,Arial,sans-serif;
+    font-size: 4.8rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #00999D;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/*<-----------------------About Us End------------------------------>*/
+
+/*<-----------------------Courses Start------------------------------>*/
+
+
+
+/*<-----------------------Courses End------------------------------>*/
+.form-control {
+    display: block;
+    width: 435px;
+    height: 60px;
+    padding: 10px 33px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 80px;
+    margin: 10px 0px 14px 424px;
+}
+#form p{
+    font-size: 36px;
+    background-color: #5bc0de;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0px;
+}
+.btn-block {
+    display: block;
+    width: 10%;
+    border-radius: 100px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0px 46% 0px;
+}
+#touch {
+    font-size: 36px;
+    background-color: #5bc0de;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0px;
+}
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    padding-top: 50%;
+    margin: 20px 0px 0px 60px;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:95%;
+position:absolute;
+}
+/*mobile Setting*/
+@media(max-width: 768px){
+    .form-control {
+    display: block;
+    width: 367px;
+    height: 53px;
+    padding: 10px 26px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 80px;
+    margin: 10px 0px 14px 0px;
+}
+.btn-block {
+    display: block;
+    width: 24%;
+    border-radius: 100px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0px 35% 14px;
+}
+#member p {
+    font-size: 16px;
+    margin: 13px 0 43px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.929;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 0px 34px;
+}
+#courses .workout {
+    margin-bottom: 23px;
+}
+
+
+
+
+}
+/*form end*/
+/*-----course deatails-----*/
+.fee {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: monospace;
+    margin: 12px 7px 24px 0px;
+}
+#courses .price {
+    float: right;
+    color: red;
+}
